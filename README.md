@@ -1,38 +1,37 @@
-# nextbikesearch
-Mostly vibe coded Python Script to search Nextbikes by Number
+# 🚲 NextBikeSearch 
 
-> [!IMPORTANT]
-> This project is not affiliated with NextBike <br>
-> Visit the original web page of NextBike <br>
-> https://www.nextbike.de/dresden/de/standorte/
+A mostly vibe-coded Python script and web app designed to locate specific Nextbikes by their unique identification number. 
 
-## Usage
+![Map interface showing a pinned MobiBike location in Dresden](https://cdn.construkter.de/nextbike-screenshot.png)
 
-### Python Script
+> **⚠️ DISCLAIMERS & IMPORTANT INFO**
+> * **Not Affiliated:** This project is not affiliated with NextBike. Visit the [official NextBike Dresden page](https://www.nextbike.de/dresden/de/standorte/).
+> * **Location Limited:** It only works with MobiBikes (Dresden). / *Es funktioniert nur mit MobiBikes (Dresden).*
+> * **Vibe-Coded:** My effort here was minimal; AIs handled most of the coding. / *Mein Aufwand hierbei war minimal. Das meiste haben KIs übernommen.*
 
-1. Start Script
-2. Enter your desired number (e.g. 930209)
-3. If the script finds it, it'll let you know
+---
 
-### Web Version
+## 🛠️ Usage 
 
-1. Open the `web.html` file
-2. Enter your desired number (e.g. 930209)
-3. If it's found it will be pin pointed on the map
+You can run this project in three different ways depending on your workflow. 
 
-### Docker
+### Python Script (Terminal)
 
-1. Clone Repo
-2. `cd` into the cloned repo
-3. Run `docker build --tag <tag> .` (Replace <tag> with tag/name (e.g. `construkter/nextbikesearch.latest`))
-4. Once it's built start with `docker run --detach --publish 80:80 --name nbs <tag>`
-    - You can also use other ports (e.g. 8080:80)
-5. Open your Browser and visit `localhost:<port>` (<port> should be the first number you wrote after --publish)
+1. Start the Python script in your terminal.
+2. Enter your desired bike number when prompted (e.g., `930209`).
+3. The script will output the location data if the bike is found.
 
-> [!IMPORTANT]
-> It only works with MobiBikes (Dresden) <br>
-> Es funktioniert nur mit MobiBikes (Dresden)
+### Web Version (Browser)
 
-> [!WARNING]
-> Mein Aufwand hierbei war minimal <br>
-> Das meiste haben KIs übernommen
+1. Open the `web.html` file in any modern web browser.
+2. Enter your desired bike number (e.g., `930209`) into the search field.
+3. The application will pinpoint the bike's exact location on an interactive map.
+
+### Docker (Container)
+
+1. Clone this repository to your local machine.
+2. Open your terminal and `cd` into the cloned repository.
+3. Build the Docker image by running: `docker build --tag <your-tag-name> .` (e.g., `construkter/nextbikesearch:latest`).
+4. Start the container by running: `docker run --detach --publish 80:80 --name nbs <your-tag-name>`.
+5. Open your browser and visit `http://localhost`. 
+   * **Note on Ports:** If you change the publish port (e.g., `--publish 8080:80`), make sure to visit `localhost:8080` instead.
