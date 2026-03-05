@@ -24,7 +24,7 @@ case "$OS" in
     fedora)
         sudo dnf install -y git docker wget
         ;;
-    arch)
+    arch|cachyos)
         sudo pacman -Sy --noconfirm git docker wget
         ;;
     *)
