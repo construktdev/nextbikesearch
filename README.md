@@ -18,3 +18,7 @@ Mostly vibe coded Python Script to search Nextbikes by Number
 > [!IMPORTANT]
 > It only works with MobiBikes (Dresden) <br>
 > Es funktioniert nur mit MobiBikes (Dresden)
+
+> [!WARNING]
+> Mein Aufwand hierbei war minimal <br>
+> Das meiste haben KIs übernommen
