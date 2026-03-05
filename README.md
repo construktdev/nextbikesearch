@@ -1,6 +1,11 @@
 # nextbikesearch
 Mostly vibe coded Python Script to search Nextbikes by Number
 
+> [!IMPORTANT]
+> This project is not affiliated with NextBike <br>
+> Visit the original web page of NextBike <br>
+> https://www.nextbike.de/dresden/de/standorte/
+
 ## Usage
 
 ### Python Script
