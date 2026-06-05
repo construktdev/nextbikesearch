@@ -15,19 +15,7 @@ A mostly vibe-coded Python script and web app designed to locate specific Nextbi
 
 You can run this project in three different ways depending on your workflow. 
 
-### Python Script (Terminal)
-
-1. Start the Python script in your terminal.
-2. Enter your desired bike number when prompted (e.g., `930209`).
-3. The script will output the location data if the bike is found.
-
-### Web Version (Browser)
-
-1. Open the `web.html` file in any modern web browser.
-2. Enter your desired bike number (e.g., `930209`) into the search field.
-3. The application will pinpoint the bike's exact location on an interactive map.
-
-### Docker (Container)
+### Docker (Container) - Recommended
 
 #### Manual (more control)
 
@@ -45,3 +33,15 @@ You can run this project in three different ways depending on your workflow.
 3. Enter host port (the port you will be visiting on your local machine)
 4. Enter the name for the container (must be unique to the other containers)
 5. Visit `localhost:<your-port>`
+
+### Python Script (Terminal)
+
+1. Start the Python script in your terminal.
+2. Enter your desired bike number when prompted (e.g., `930209`).
+3. The script will output the location data if the bike is found.
+
+### Web Version (Browser)
+
+1. Open the `web.html` file in any modern web browser.
+2. Enter your desired bike number (e.g., `930209`) into the search field.
+3. The application will pinpoint the bike's exact location on an interactive map.
